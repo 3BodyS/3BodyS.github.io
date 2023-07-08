@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>三体运动模拟器｜探索三体中的引力奇观</title>
+    <meta name="keywords" content="黑暗森林, 三体, 三体游戏, 三体运动, 模拟器, 科幻, 刘慈欣">
+    <meta name="description" content="在这里，你将有机会深入探索刘慈欣的科幻巨作《三体》中引人入胜的三体运动。这个模拟器将带你进入三体宇宙，体验恒星和行星之间的引力相互作用，探索它们之间的复杂轨迹和动力学效应。">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+
+        .animation {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+        }
+
+        .loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            border: 6px solid #f44336;
+            border-top: 6px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+
+            100% {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+
+        .button-container {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #f44336;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <video class="animation" autoplay="" muted="" loop="">
+            <source src="./main.mp4" type="video/mp4" />
+        </video>
+        <div class="loader"></div>
+    </div>
+
+    <div class="button-container">
+        <button class="button" onclick="enterGame()">进入模拟器</button>
+    </div>
+
+    <script>
+        function enterGame() {
+            alert('敬请期待！正在处于开发状态...');
+        }
+    </script>
+
+
+</body>
+
+</html>
