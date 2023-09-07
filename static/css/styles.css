@@ -5,12 +5,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
-    max-width: 100px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Define the top navigation bar styles */
 .top-bar {
     background-color: #333;
@@ -42,9 +36,11 @@ nav a {
     color: #fff;
 }
 
-/* Style for the Flow Element Container (center the flow elements) */
+/* Style for the Flow Element Container (center the flow elements with 3% side margins) */
 .container {
     text-align: center; /* Center-align the flow elements container */
+    margin: 0 3%; /* Add 3% side margins to the container */
+    box-sizing: border-box; /* Include margin in container width */
 }
 
 /* Style for the Flow Element */
@@ -80,7 +76,6 @@ nav a {
     color: #666;
     margin-top: 10px;
 }
-
 
 /* Define the mobile bottom navigation styles */
 .mobile-bar {
