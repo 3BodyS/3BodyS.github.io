@@ -1,7 +1,5 @@
 /* Reset some default styles and set basic styling */
-*,html,body {
-    height: 100%;
-    width: 100%;
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -48,11 +46,12 @@ nav a {
 .flow-element {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
+    margin: 10px; /* Add margin to create spacing between elements */
     text-align: center;
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    display: inline-block; /* Make elements display horizontally */
+    vertical-align: top; /* Align elements to the top */
 }
 
 /* Style for the Flow Element Image */

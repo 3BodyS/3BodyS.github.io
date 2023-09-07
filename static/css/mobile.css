@@ -4,7 +4,9 @@
     display: block;
 }
 
+/* Override width for mobile screens */
 .flow-element {
-    width: 100%; /* 1 element per row */
-    /* Add any other mobile-specific styles here */
+    width: calc(100% - 20px); /* Make elements 100% width with spacing */
+    margin: 10px; /* Add margin to create spacing between elements */
+    display: block; /* Display elements vertically on mobile */
 }
