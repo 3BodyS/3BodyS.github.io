@@ -12,7 +12,7 @@
 /* Center the Flow Elements on mobile */
 /* Override width and margin for all devices to center-align elements */
 .flow-element {
-    width: calc(100% - 20px); /* Ensure one element per row on mobile */
+    width: calc(100% - 25px); /* Ensure one element per row on mobile */
     margin: 10px; /* Add margin to create spacing between elements and center-align them */
     display: inline-block; /* Make elements display horizontally */
     vertical-align: top; /* Align elements to the top */
