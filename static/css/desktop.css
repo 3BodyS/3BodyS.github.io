@@ -1,0 +1,11 @@
+/* Additional styles for desktop screens */
+/* You can customize these styles for larger screens */
+.top-bar {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.flow-element {
+    width: 23%; /* Approximately 3-4 elements per row */
+    /* Add any other desktop-specific styles here */
+}

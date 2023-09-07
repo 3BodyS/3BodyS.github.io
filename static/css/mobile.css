@@ -1,0 +1,10 @@
+/* Additional styles for mobile screens */
+/* You can customize these styles for smaller screens */
+.mobile-bar {
+    display: block;
+}
+
+.flow-element {
+    width: 100%; /* 1 element per row */
+    /* Add any other mobile-specific styles here */
+}

@@ -1,0 +1,6 @@
+/* Additional styles for tablet screens */
+/* You can customize these styles for tablets */
+.flow-element {
+    width: 30%; /* Approximately 2-3 elements per row */
+    /* Add any other tablet-specific styles here */
+}
