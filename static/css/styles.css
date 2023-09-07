@@ -54,6 +54,7 @@ nav a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     width: calc(100% - 20px); /* Ensure one element per row on mobile */
     box-sizing: border-box; /* Include padding in element width */
+    min-height: 0; /* Ensure minimum height is not greater than width */
 }
 
 /* Style for the Flow Element Image */
