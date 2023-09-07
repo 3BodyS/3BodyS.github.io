@@ -5,7 +5,10 @@
     font-size: 18px;
 }
 
+/* Override width and margin for all devices to center-align elements */
 .flow-element {
-    width: 23%; /* Approximately 3-4 elements per row */
-    /* Add any other desktop-specific styles here */
+    width: calc(33.33% - 20px); /* Approximately 3 elements per row with spacing */
+    margin: 10px; /* Add margin to create spacing between elements and center-align them */
+    display: inline-block; /* Make elements display horizontally */
+    vertical-align: top; /* Align elements to the top */
 }
