@@ -4,9 +4,14 @@
     display: block;
 }
 
-/* Override width for mobile screens */
+/* Hide the top navigation bar on mobile */
+.top-bar {
+    display: none;
+}
+
+/* Center the Flow Elements on mobile */
 .flow-element {
     width: calc(100% - 20px); /* Make elements 100% width with spacing */
-    margin: 10px; /* Add margin to create spacing between elements */
+    margin: 10px auto; /* Center the flow elements horizontally and add margin */
     display: block; /* Display elements vertically on mobile */
 }

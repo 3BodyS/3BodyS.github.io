@@ -46,7 +46,7 @@ nav a {
 .flow-element {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
-    margin: 10px; /* Add margin to create spacing between elements */
+    margin: 10px auto; /* Center the flow elements horizontally and add margin */
     text-align: center;
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
