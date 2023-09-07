@@ -42,16 +42,20 @@ nav a {
     color: #fff;
 }
 
+/* Style for the Flow Element Container (center the flow elements) */
+.container {
+    text-align: center; /* Center-align the flow elements container */
+}
+
 /* Style for the Flow Element */
 .flow-element {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
-    margin: 10px auto; /* Center the flow elements horizontally and add margin */
+    display: inline-block;
+    margin: 10px; /* Add margin to create spacing between elements */
     text-align: center;
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    display: inline-block; /* Make elements display horizontally */
-    vertical-align: top; /* Align elements to the top */
 }
 
 /* Style for the Flow Element Image */
@@ -76,6 +80,7 @@ nav a {
     color: #666;
     margin-top: 10px;
 }
+
 
 /* Define the mobile bottom navigation styles */
 .mobile-bar {
